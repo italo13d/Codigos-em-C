@@ -16,7 +16,7 @@ int main ()
 
     printf("*p = %lf; *q = %lf; *r = %lf\n", *p, *q, *r);
 
-    printf("q-p = %ld; &A[0] = %ld;\n", q-p, r-p);  
+    printf("q-p = %ld; r-p = %ld;\n", q-p, r-p);  
 
     double **s; r++; q=q+2; s=&q;
 
