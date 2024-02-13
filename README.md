@@ -11,7 +11,7 @@ Essas instruções conterão alguns algoritmos de resolução de problemas de ex
 Para entender os códigos, é necessário um conhecimento básico ou intermediário em C. É recomendado que se utilize de ferramentas de IA para melhor compreensão em caso
 de não conseguir entendê-los bem.
 
-##Licença
+## Licença
 
 MIT License
 
