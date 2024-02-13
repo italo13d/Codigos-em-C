@@ -12,7 +12,7 @@ int main ()
 
 {
     setlocale(LC_ALL,"pt_BR.UTF-8");
-    int N; float maior = 0;
+    int N; float maior = 0;int indice = 0;int indice1 = 0;int maiorQuant = 0;
 
     printf("Digite o número de produtos: ");
     scanf("%d", &N);
@@ -39,8 +39,17 @@ int main ()
     for(int i = 0; i < N; i++)
     {
         if(produtos[i].preco > maior)
-        maior = produtos[i].preco;
+        {maior = produtos[i].preco;
+        indice = i;
+        }
+        if(produtos[i].quantidade > maiorQuant)
+        {
+            maiorQuant = produtos[i].quantidade;
+            indice1 = i;
+        }
     }
-    printf("%.2f", maior);
+      printf("O produto mais caro é o %s\n", produtos[indice].nome);
+    printf("O produto mais disponível em estoque é o %s", produtos[indice1].nome);
+
     return 0;
 }
