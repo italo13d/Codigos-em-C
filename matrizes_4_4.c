@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #define X 4
 #define Y 4
+
+
+ /* O programa aloca uma matriz de duas dimensões com 4 dimensões e preenche a matriz com a soma dos índices de
+ linha e coluna, imprime a matriz e, desaloca a memória alocada para a matriz*/
+
 int main ()
 {
     int **A; int i, j;
@@ -10,6 +15,7 @@ int main ()
  da nossa matriz 4 por 4 basicamente.
  Além disso, é importante testar se o retorno da nossa alocação de memória não é nula,
  pois o nulo é resultado de quando não se consegue alocar eficientemente.*/
+
  
      A = (int **) malloc ( Y * sizeof(int*));
      if(A == NULL)
