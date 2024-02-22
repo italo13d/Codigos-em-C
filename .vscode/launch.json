@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "PrimeiroPrograma",
+      "request": "launch",
+      "mainClass": "PrimeiroPrograma",
+      "projectName": "python_cea3bd04"
+    },
+    {
       "name": "Python Debugger: Current File",
       "type": "debugpy",
       "request": "launch",
